@@ -6,10 +6,10 @@ Eğlence Otobüsü, sitelerini daha interaktif bir hale getirmenizi istiyor. Sit
 
 ## Git Kurulumu
 
-* [ ] Bu projeyi forklayarak bir kopyasını oluşturun.
-* [ ] Reponun kendi hesabınızdaki versiyonunuzu klonlayın.
-* [ ] Projeyi main branchına implement edin
-* [ ] Commitinizi pushlayın: `git push origin main`.
+* [X] Bu projeyi forklayarak bir kopyasını oluşturun.
+* [X] Reponun kendi hesabınızdaki versiyonunuzu klonlayın.
+* [X] Projeyi main branchına implement edin
+* [X] Commitinizi pushlayın: `git push origin main`.
 
 ## Projeyi çalıştırma
 
@@ -17,17 +17,17 @@ Bu proje [Webpack ve Babel]'i kullanıyor. `src/index.html` içerisinde, ne Java
 
 Bu projede sakın **hiçbir dosyayı taşımayın veya adını değiştirmeyin**. Web sitesinin kaynak dosyaları `src` klasöründe bulunur. NPM kitaplıklarının yüklenmesi nedeniyle 'package.json' içinde bildirilen yeni bağımlılıklar olmadıkça, 'src' klasörünün dışındaki hiçbir dosyada değişiklik yapmayın. (Örnek. `npm i lodash`).
 
-* [ ] `npm install` komutuyla proje gereksinimlerini yükleyin.
-* [ ] `npm start` komutuyla projeyi çalıştırın `http://localhost:3000`.
+* [X] `npm install` komutuyla proje gereksinimlerini yükleyin.
+* [X] `npm start` komutuyla projeyi çalıştırın `http://localhost:3000`.
 
 ## Minimum Uygulanabilir Ürün
 
 ###  Farklı 10 event için listener oluşturun (etkinlik dinleyici, event dinleyici, event listener)
 
-* [ ] [index.js dosyası](src/index.js)'nı kullanarak, en az 10 _farklı_ tipte [event listeners](https://developer.mozilla.org/en-US/docs/Web/Events) oluşturun. Bu siteyi interaktif hale getirmek için kendi yaratıcılığınızı kullanın. Örnek, eventlerle renkleri değiştirebilir, nesnelere animasyonlar ekleyebilir, DOM elementleri ekleyebilir veya silebilirsiniz.
+* [X] [index.js dosyası](src/index.js)'nı kullanarak, en az 10 _farklı_ tipte [event listeners](https://developer.mozilla.org/en-US/docs/Web/Events) oluşturun. Bu siteyi interaktif hale getirmek için kendi yaratıcılığınızı kullanın. Örnek, eventlerle renkleri değiştirebilir, nesnelere animasyonlar ekleyebilir, DOM elementleri ekleyebilir veya silebilirsiniz.
 
-* [ ] Kullanabileceğiniz bazı event çeşitleri şunlardır:
-  * [ ] `mouseover`
+* [X] Kullanabileceğiniz bazı event çeşitleri şunlardır:
+  * [X] `mouseover`
   * [ ] `keydown`
   * [ ] `wheel`
   * [ ] `load`
@@ -35,7 +35,7 @@ Bu projede sakın **hiçbir dosyayı taşımayın veya adını değiştirmeyin**
   * [ ] `resize`
   * [ ] `scroll`
   * [ ] `select`
-  * [ ] `dblclick`
+  * [X] `dblclick`
   * [ ] `drag / drop`
 
 Not: Drag/drop diğerlerine göre biraz daha alengirli. Bu aslında tek bir tür event türü değil, birkaç farklı tür eventin bir arada çalışması gerekir.
