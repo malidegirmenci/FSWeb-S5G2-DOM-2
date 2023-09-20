@@ -29,11 +29,11 @@ Bu projede sakın **hiçbir dosyayı taşımayın veya adını değiştirmeyin**
 * [X] Kullanabileceğiniz bazı event çeşitleri şunlardır:
   * [X] `mouseover`
   * [ ] `keydown`
-  * [ ] `wheel`
-  * [ ] `load`
+  * [X] `wheel`
+  * [X] `load`
   * [ ] `focus`
   * [ ] `resize`
-  * [ ] `scroll`
+  * [X] `scroll`
   * [ ] `select`
   * [X] `dblclick`
   * [ ] `drag / drop`
